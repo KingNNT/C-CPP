@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/include" 
+CXX_INCLUDES = -I"/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/./include" 
 

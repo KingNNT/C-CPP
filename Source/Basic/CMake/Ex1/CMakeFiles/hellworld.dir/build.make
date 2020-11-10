@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/build"
+CMAKE_BINARY_DIR = "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/hellworld.dir/depend.make
@@ -57,9 +57,22 @@ include CMakeFiles/hellworld.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/hellworld.dir/flags.make
 
+CMakeFiles/hellworld.dir/src/main.cpp.o: CMakeFiles/hellworld.dir/flags.make
+CMakeFiles/hellworld.dir/src/main.cpp.o: src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hellworld.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hellworld.dir/src/main.cpp.o -c "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/src/main.cpp"
+
+CMakeFiles/hellworld.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hellworld.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/src/main.cpp" > CMakeFiles/hellworld.dir/src/main.cpp.i
+
+CMakeFiles/hellworld.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hellworld.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/src/main.cpp" -o CMakeFiles/hellworld.dir/src/main.cpp.s
+
 CMakeFiles/hellworld.dir/src/greetings_en.cpp.o: CMakeFiles/hellworld.dir/flags.make
-CMakeFiles/hellworld.dir/src/greetings_en.cpp.o: ../src/greetings_en.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hellworld.dir/src/greetings_en.cpp.o"
+CMakeFiles/hellworld.dir/src/greetings_en.cpp.o: src/greetings_en.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hellworld.dir/src/greetings_en.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hellworld.dir/src/greetings_en.cpp.o -c "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/src/greetings_en.cpp"
 
 CMakeFiles/hellworld.dir/src/greetings_en.cpp.i: cmake_force
@@ -71,8 +84,8 @@ CMakeFiles/hellworld.dir/src/greetings_en.cpp.s: cmake_force
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/src/greetings_en.cpp" -o CMakeFiles/hellworld.dir/src/greetings_en.cpp.s
 
 CMakeFiles/hellworld.dir/src/greetings_ja.cpp.o: CMakeFiles/hellworld.dir/flags.make
-CMakeFiles/hellworld.dir/src/greetings_ja.cpp.o: ../src/greetings_ja.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hellworld.dir/src/greetings_ja.cpp.o"
+CMakeFiles/hellworld.dir/src/greetings_ja.cpp.o: src/greetings_ja.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hellworld.dir/src/greetings_ja.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hellworld.dir/src/greetings_ja.cpp.o -c "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/src/greetings_ja.cpp"
 
 CMakeFiles/hellworld.dir/src/greetings_ja.cpp.i: cmake_force
@@ -84,8 +97,8 @@ CMakeFiles/hellworld.dir/src/greetings_ja.cpp.s: cmake_force
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/src/greetings_ja.cpp" -o CMakeFiles/hellworld.dir/src/greetings_ja.cpp.s
 
 CMakeFiles/hellworld.dir/src/greetings_vi.cpp.o: CMakeFiles/hellworld.dir/flags.make
-CMakeFiles/hellworld.dir/src/greetings_vi.cpp.o: ../src/greetings_vi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hellworld.dir/src/greetings_vi.cpp.o"
+CMakeFiles/hellworld.dir/src/greetings_vi.cpp.o: src/greetings_vi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hellworld.dir/src/greetings_vi.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hellworld.dir/src/greetings_vi.cpp.o -c "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/src/greetings_vi.cpp"
 
 CMakeFiles/hellworld.dir/src/greetings_vi.cpp.i: cmake_force
@@ -96,36 +109,23 @@ CMakeFiles/hellworld.dir/src/greetings_vi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hellworld.dir/src/greetings_vi.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/src/greetings_vi.cpp" -o CMakeFiles/hellworld.dir/src/greetings_vi.cpp.s
 
-CMakeFiles/hellworld.dir/src/main.cpp.o: CMakeFiles/hellworld.dir/flags.make
-CMakeFiles/hellworld.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hellworld.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hellworld.dir/src/main.cpp.o -c "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/src/main.cpp"
-
-CMakeFiles/hellworld.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hellworld.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/src/main.cpp" > CMakeFiles/hellworld.dir/src/main.cpp.i
-
-CMakeFiles/hellworld.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hellworld.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/src/main.cpp" -o CMakeFiles/hellworld.dir/src/main.cpp.s
-
 # Object files for target hellworld
 hellworld_OBJECTS = \
+"CMakeFiles/hellworld.dir/src/main.cpp.o" \
 "CMakeFiles/hellworld.dir/src/greetings_en.cpp.o" \
 "CMakeFiles/hellworld.dir/src/greetings_ja.cpp.o" \
-"CMakeFiles/hellworld.dir/src/greetings_vi.cpp.o" \
-"CMakeFiles/hellworld.dir/src/main.cpp.o"
+"CMakeFiles/hellworld.dir/src/greetings_vi.cpp.o"
 
 # External object files for target hellworld
 hellworld_EXTERNAL_OBJECTS =
 
+hellworld: CMakeFiles/hellworld.dir/src/main.cpp.o
 hellworld: CMakeFiles/hellworld.dir/src/greetings_en.cpp.o
 hellworld: CMakeFiles/hellworld.dir/src/greetings_ja.cpp.o
 hellworld: CMakeFiles/hellworld.dir/src/greetings_vi.cpp.o
-hellworld: CMakeFiles/hellworld.dir/src/main.cpp.o
 hellworld: CMakeFiles/hellworld.dir/build.make
 hellworld: CMakeFiles/hellworld.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable hellworld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable hellworld"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hellworld.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +138,6 @@ CMakeFiles/hellworld.dir/clean:
 .PHONY : CMakeFiles/hellworld.dir/clean
 
 CMakeFiles/hellworld.dir/depend:
-	cd "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1" "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1" "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/build" "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/build" "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/build/CMakeFiles/hellworld.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1" "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1" "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1" "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1" "/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/CMakeFiles/hellworld.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/hellworld.dir/depend
 

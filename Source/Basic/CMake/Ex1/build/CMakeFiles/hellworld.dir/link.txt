@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/hellworld.dir/src/greetings_en.cpp.o CMakeFiles/hellworld.dir/src/greetings_ja.cpp.o CMakeFiles/hellworld.dir/src/greetings_vi.cpp.o CMakeFiles/hellworld.dir/src/main.cpp.o  -o hellworld 

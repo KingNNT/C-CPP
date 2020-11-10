@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/include/greetings_en.h
-
 /mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/src/greetings_en.cpp
+bits/stdc++.h
+-
+
+/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/src/greetings_ja.cpp
+bits/stdc++.h
+-
+
+/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/src/greetings_vi.cpp
 bits/stdc++.h
 -
 
 /mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/src/main.cpp
 bits/stdc++.h
 -
-../include/greetings_en.h
-/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/include/greetings_en.h
 
