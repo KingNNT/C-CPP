@@ -1,0 +1,3 @@
+/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/build/CMakeFiles/rebuild_cache.dir
+/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/build/CMakeFiles/edit_cache.dir
+/mnt/Learning And Working/Develop/C-CPP/GNU-Compiler/Learning/Source/Basic/CMake/Ex1/build/CMakeFiles/hellworld.dir
