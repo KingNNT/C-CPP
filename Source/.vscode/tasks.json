@@ -1,0 +1,25 @@
+{
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "Run Task",
+			"command": "/usr/bin/g++",
+			"args": [
+				"-g",
+				"${file}",
+				"-o",
+				"${workspaceFolder}/bin/${fileBasenameNoExtension}"
+			],
+			"options": {
+				"cwd": "/usr/bin"
+			},
+			"problemMatcher": ["$gcc"],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "Generated task by Debugger"
+		}
+	],
+	"version": "2.0.0"
+}
