@@ -9,6 +9,7 @@
 				"${file}",
 				"-o",
 				"${workspaceFolder}/bin/${fileBasenameNoExtension}"
+				"-lpthread"
 			],
 			"options": {
 				"cwd": "/usr/bin"

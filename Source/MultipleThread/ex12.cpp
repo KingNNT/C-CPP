@@ -3,6 +3,7 @@
 
 /* Include File */
 #include <bits/stdc++.h>
+#include <thread>
 
 // #include ""
 
@@ -16,15 +17,24 @@
 using namespace std;
 
 /* ---------- | ---------- | ---------- | ---------- | ---------- */
-void threadFunc()
+void task1()
 {
-	cout << "Welcome to Multithreading" << endl;
+	char c;
+	while (1)
+	{
+		c = getchar();
+		if (c == 33)
+			break;
+		cout << c;
+	}
+	return;
 }
 
 void solve()
 {
-	// thread funcTest1(threadFunc);
-	threadFunc();
+	thread firstThread(task1);
+	firstThread.join();
+	return;
 }
 
 int main()
