@@ -20,14 +20,10 @@ using namespace std;
 void task1()
 {
 	char c;
-	while (1)
+	while (cin >> c)
 	{
-		c = getchar();
-		if (c == 33)
-			break;
-		cout << c;
+		//
 	}
-	return;
 }
 
 void solve()

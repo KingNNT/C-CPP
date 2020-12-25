@@ -14,7 +14,7 @@ int main()
     struct sockaddr_in address;
     struct sockaddr_in serv_addr;
     int sock = 0, valread;
-    char *hello = "Hello from client";
+    string hello = "Hello from client";
     char buffer[1024] = {0};
     char add[225];
     int continu = 1;
@@ -49,10 +49,10 @@ int main()
     }
     while (continu == 1)
     {
-        char mess_from_client[225];
+        npm insa
+            string mess_from_client;
         cout << "Send message to Server from Client: " << endl;
-        cin >> mess_from_client;
-        fflush(stdin);
+        getline(cin, mess_from_client);
         hello = mess_from_client;
 
         cout << "Message from Server: " << endl;
